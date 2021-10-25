@@ -12,9 +12,18 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+h3,ul,li{
+  color:black;
+}
+li{
+  text-align: initial;
+}
+img{
+  height: 70px;
+  width: 70px;
+}
 .App-header {
-  background-color: #282c34;
+  background-color: #d8d8d8;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
