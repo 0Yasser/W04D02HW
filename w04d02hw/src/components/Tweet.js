@@ -4,10 +4,7 @@ import React from 'react'
 const Tweet = (props) => {
     console.log(props);
     
-    let list=[];
-    for (let i = 0; i < props.tweets.length; i++) {
-        list.push(<li>{props.tweets[i]}</li>);
-    }
+    const list=props.tweets.map((curr,i)=><li>{props.tweets[i]}</li>);
     let parentItem=<div>{list}</div>;
     
     return (
